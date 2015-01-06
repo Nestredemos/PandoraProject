@@ -16,5 +16,9 @@ public class Player {
 
   public void showInventory() {
   }
+  public void move(Room movingRoom) 
+  {
+      this.currentRoom = movingRoom;
+  }
 
 }
