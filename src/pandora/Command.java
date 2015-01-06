@@ -4,11 +4,14 @@
  * and open the template in the editor.
  */
 package pandora;
-
+import java.util.HashMap;
 /**
  *
- * @author Cyril
+ * @author Cyril, Abdelrahmane
  */
 public class Command {
-    
+    public void goNorth (HashMap currentRoom)
+    {
+        
+    }
 }

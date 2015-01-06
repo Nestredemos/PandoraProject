@@ -26,4 +26,8 @@ public class Room {
     {
         return this.description;
     }
+  public Room getDirection(String direction)
+  {
+      return (Room) this.roomHash.get(direction);
+  }
 }
