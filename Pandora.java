@@ -730,20 +730,6 @@ public class Pandora {
             Room Room5 = new Room("Forest longway",5);
             Room Room6 = new Room("Forest mine",6);
             Room Room7 = new Room("Forest path",7);
-            Room Room8 = new Room("Forest Spawn",8);
-            Room Room9 = new Room("Forest crosspath",9);
-            Room Room10 = new Room("Hunter Cabin",10);
-            Room Room11 = new Room("Spider nest",11);
-            Room Room12 = new Room("Forest longway",12);
-            Room Room13 = new Room("Forest mine",13);
-            Room Room14 = new Room("Forest path",14);
-            Room Room15 = new Room("Forest Spawn",15);
-            Room Room16 = new Room("Forest crosspath",16);
-            Room Room17 = new Room("Hunter Cabin",17);
-            Room Room18 = new Room("Spider nest",18);
-            Room Room19 = new Room("Forest longway",19);
-            Room Room20 = new Room("Forest mine",20);
-            
 
             Room1.addExit("South", Room2);
 
@@ -759,14 +745,6 @@ public class Pandora {
             Room5.addExit("North", Room2);
             Room5.addExit("South", Room7);
             Room5.addExit("West", Room6);
-            
-            Room6.addExit("East", Room5);
-            
-            Room7.addExit("North", Room5);
-            Room7.addExit("South", Room8);
-            
-            
 
     }
 }
-
